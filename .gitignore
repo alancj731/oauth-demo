@@ -1,0 +1,29 @@
+# Dependencies
+node_modules/
+
+# Environment variables (secrets: Upstash tokens, signing keys)
+.env
+.env.*
+!.env.example
+
+# Vercel CLI project link and local build output
+.vercel/
+
+# Build output (the app runs from source via tsx; Vercel builds its own)
+dist/
+build/
+*.tsbuildinfo
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS files
+.DS_Store
+._*
+Thumbs.db
+
+# Editors
+.vscode/
+.idea/
+*.swp
